@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="C:\Users\2141686\OneDrive - Cognizant\Desktop\bootstrap.css">
+  <style>
+    .customBorder {
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      padding-left: 35px;
+      padding-right: 35px;
+      background-color: rgb(250, 250, 250);
+    }
+  </style>
+</head>
+
+<body>
+  <script src="C:\Users\2141686\OneDrive - Cognizant\Desktop\bootstrap.js"></script>
+
+  <nav class="navbar navbar-expand-sm border-bottom border-black border-2 mb-0 pb-0">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav">
+          <!--  me-auto mb-0 mb-lg-0 -->
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-dark border-bottom-0 m-2 mb-0 customBorder">Tab One</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-dark m-2 mb-0 border-bottom-0 customBorder">Tab Two</button>
+          </li>
+          <li class="nav-item">
+            <button type="button"
+              class="btn btn-outline-dark m-2 mb-0 border-bottom-0 active customBorder">Grid</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-dark m-2 mb-0 border-bottom-0 customBorder">Form</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- <ul class="nav nav-tabs nav-pills nav-expand-sm bg-body-tertiary border-bottom border-8 ">
+    <li class="nav-item">
+      <button type="button" class="nav-link btn btn-outline-dark border-bottom-0 m-2 mb-0  active">Tab One</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="nav-link btn btn-outline-dark border-bottom-0 m-2 mb-0 ">Tab One</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="nav-link btn btn-outline-dark border-bottom-0 m-2 mb-0 ">Tab One</button>
+    </li>
+    <li class="nav-item">
+      <button type="button" class="nav-link btn btn-outline-dark border-bottom-0 m-2 mb-0 ">Tab One</button>
+    </li>
+  </ul> -->
+  <div class="bg-secondary-subtle">
+    <div class="btn-group btn-group-sm m-2 bg-light-subtle" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-outline-dark ">Standard</button>
+      <button type="button" class="btn btn-outline-dark active">Custom</button>
+    </div>
+  </div>
+
+  <div class="container-fluid p-0">
+
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <th class="bg-light-subtle"></th>
+          <th>actions</th>
+          <th>runcode</th>
+          <th>company</th>
+          <th>taxtype</th>
+          <th>product</th>
+          <th>parent product</th>
+          <th>feedback</th>
+          <th>active</th>
+        <tr>
+      </thead>
+      <td>1</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+  </div>
+  </td>
+
+  <td><a href="https://www.google.com/">51</a></td>
+  <td>july@example.com</td>
+  <td>Dooley</td>
+  <td><a href="https://www.google.com/">marine diseal oil</a></td>
+  <td>Dooley</td>
+  <td>Dooley</td>
+  <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+  </tr>
+  </tr>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>
+        <div class="dropdown">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://www.google.com/">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://www.google.com/">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://www.google.com/">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://www.google.com/">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-success pb-0 pt-0 pl-3 pr-3">Yes</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://www.google.com/">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://www.google.com/">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://www.google.com/">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://www.google.com/">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-success pb-0 pt-0 pl-3 pr-3">Yes</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-danger pb-0 pt-0 pl-3 pr-3">No</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-success pb-0 pt-0 pl-3 pr-3">Yes</button></td>
+    </tr>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>
+        <div class="dropdown">
+          <!-- <span class="glyphicon glyphicon-pencil"></span> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg>
+          <button class="dropdown-toggle rounded border-1" type="button" data-toggle="dropdown">More
+            <span class="caret"></span></button>
+        </div>
+        </div>
+      </td>
+
+      <td><a href="https://iocl.com/marine-oils">51</a></td>
+      <td>july@example.com</td>
+      <td>Dooley</td>
+      <td><a href="https://iocl.com/marine-oils">marine diseal oil</a></td>
+      <td>Dooley</td>
+      <td>Dooley</td>
+      <td><button type="button" class="btn btn-success pb-0 pt-0 pl-3 pr-3">Yes</button></td>
+    </tr>
+    </tr>
+  </tbody>
+  </table>
+  </div>
+
+</body>
+
+</html>
